@@ -1,0 +1,29 @@
+:root {
+  --theme-primary: #A98770;
+  --theme-secondary: #E9D8C5;
+  --theme-background: #F8F2E9;
+  --theme-surface: #FFFDF9;
+  --theme-text: #514238;
+  --theme-mocha: #98765E;
+  --theme-sand: #D8C1A8;
+  --theme-light: #F1E7D8;
+  --theme-espresso: #49382D;
+  --theme-text-muted: #6B574A;
+  --theme-text-on-primary: #302117;
+  --theme-link: #6F503A;
+  --theme-primary-hover: var(--theme-sand);
+  --theme-focus: var(--theme-link);
+  --theme-border: var(--theme-sand);
+  --theme-border-strong: var(--theme-primary);
+  --theme-progress: var(--theme-mocha);
+  --theme-graph-left: var(--theme-primary);
+  --theme-graph-right: var(--theme-espresso);
+  --theme-graph-guide: var(--theme-mocha);
+  --theme-graph-limit: var(--theme-mocha);
+  --theme-graph-value: var(--theme-espresso);
+  --theme-graph-grid: var(--theme-secondary);
+  --theme-graph-axis: var(--theme-mocha);
+  --theme-graph-label: var(--theme-text-muted);
+  --theme-shadow-rgb: 73 56 45;
+  --theme-surface-rgb: 255 253 249;
+}
