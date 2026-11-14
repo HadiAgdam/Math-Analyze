@@ -338,3 +338,5 @@ export function factorExpression(expression, variable = 'x') {
     return proposed.tex
   } catch { return null }
 }
+
+export const proofMath = Object.freeze({ rat, fromDecimal, add, neg, sub, mul, div, zero, number, rtex, trim, pzero, padd, pneg, pmul, peval, unwrap, asRational, realValue, ptex, removeRoots, rationalDefinedAt })
