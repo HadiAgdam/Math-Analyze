@@ -17,6 +17,7 @@ const https = process.env.ANALYZ_HTTPS_CERT && process.env.ANALYZ_HTTPS_KEY ? {
 } : undefined
 
 export default defineConfig({
+  base: '/Math-Analyze/',
   plugins: [react(), tailwindcss(), {
     name: 'analyz-theme-metadata',
     transformIndexHtml: html => html.replaceAll('__THEME_PRIMARY__', themeColor('primary'))
@@ -34,8 +35,8 @@ export default defineConfig({
       display: 'standalone',
       start_url: '/',
       icons: [
-        { src: '/pwa-192.png', sizes: '192x192', type: 'image/png' },
-        { src: '/pwa-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' }
+        { src: 'pwa-192.png', sizes: '192x192', type: 'image/png' },
+        { src: 'pwa-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' }
       ]
     },
     workbox: { globPatterns: ['**/*.{js,css,html,svg,png,woff,woff2,pdf}'], maximumFileSizeToCacheInBytes: 6000000 }
